@@ -1,0 +1,100 @@
+.gallery {
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      display: grid;
+      gap: 2rem;
+      max-width: 1200px;
+      margin: 0 auto 3rem;
+      padding: 0 1.5rem;
+      width: 100%;
+    }
+ 
+    .gallery > div {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      background: #fff;
+      border-radius: 12px;
+      padding: 1.2rem;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      transition: box-shadow 0.3s;
+    }
+    .gallery > div:hover {
+      box-shadow: 0 6px 24px rgba(0,0,0,0.14);
+    }
+ 
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+    .gallery img:hover {
+      transform: scale(1.03);
+    }
+ 
+
+    .img-placeholder {
+      width: 100%;
+      height: 200px;
+      border-radius: 8px;
+      background: linear-gradient(135deg, #e8d5c4 0%, #c9a98a 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s;
+      overflow: hidden;
+      position: relative;
+    }
+    .img-placeholder:hover { transform: scale(1.03); }
+    .img-placeholder span {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 1.1rem;
+      color: #6b4226;
+      letter-spacing: 0.1em;
+      opacity: 0.7;
+    }
+ 
+    .product-label {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      color: #555;
+      text-align: center;
+    }
+ 
+    .button-product {
+      background-color: #d6ae90;
+      color: #1a1a1a;
+      border: none;
+      padding: 0.55rem 1rem;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 0.95rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+    .button-product:hover {
+      background-color: #b99375;
+      transform: scale(1.05);
+    }
+
+.title-products{
+    display: flex;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    justify-content: center;}
+
+.title-products h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    width: fit-content;}
+
+.gallery-container{
+    display: flex;
+    justify-content: center;
+}

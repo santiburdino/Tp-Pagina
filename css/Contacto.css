@@ -1,0 +1,28 @@
+.form-container {
+    margin: auto;
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgb(87 87 87 / 50%);
+    background-color: #ffffff6b;
+    color: black;
+}
+
+.form-group{
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    align-content: center;
+    justify-content: center;
+}
+
+.form-group-button-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.textarea{
+    max-width: 80%;
+}

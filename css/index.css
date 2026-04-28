@@ -1,0 +1,121 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../img/fondo1.jpg');
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff !important;
+}
+
+h1{
+    text-align: center;
+}
+
+header {
+    background-color: #000000ab;
+    padding: 1rem 2rem;
+   
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo {
+    width: 150px;
+    border: solid;
+    color: #ffffff;
+}
+
+header nav ul{    
+    display: flex;
+    gap: 2rem;
+    Color: #ffffff;
+}
+
+
+header nav ul li, footer ul li{
+    list-style: none;
+}
+
+header nav ul li a, footer a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff
+}
+
+.carousel{
+    padding: 0 10rem;
+}
+
+.carousel-item img{
+    margin: auto;
+    border: solid;
+    border-color: #000000;
+    min-height: 514px;
+}
+
+.carousel-caption{
+    position: unset !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: #000000ab !important;
+    border: solid !important;
+}
+
+.carousel button{    
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: auto;
+    margin: auto;
+}
+
+.reason-section{
+    max-width: 1200px;
+    margin: 3rem auto;
+    text-align: center;
+}
+
+.reason-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    gap: 4rem;
+}
+
+.reason-cards{
+  background-color: #000000ab;
+    padding: 2rem;
+    border-radius: 8px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 5px 25px rgb(255 255 255);
+}
+
+.footer{
+    background-color: #000000ab;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    margin-top: auto;}
+
+.footer-nav{
+    gap: 1.5rem;
+    display: flex;
+    justify-content: center;}
+
+
+.roboto-condensed{
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+}
